@@ -7,8 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        
+      backgroundImage: {},
+      maxWidth: {
+        container: "1600px",
+      },
+      colors: {
+        rgba: "rgba(255,255,255,0.1)",
+        black_rgba: "rgba(0,0,0,0.1)",
       },
     },
   },
